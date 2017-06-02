@@ -1,0 +1,33 @@
+.sliderWindow{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    position: relative;
+}
+.sliderWindow img{
+    display: block;
+    height: 100%;
+}
+.slidingBox{
+    display: flex;
+    overflow-x: hidden;
+    max-height: 800px;
+}
+.sliderButton{
+    width: 80px;
+    height: 150px;
+    background-color: rgba(10,10,10,0.4);
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+.sliderButton:nth-child(2){
+    right: 0px;
+}
